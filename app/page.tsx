@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Divider from "./components/ui/Divider";
 import Main from "./components/Main";
