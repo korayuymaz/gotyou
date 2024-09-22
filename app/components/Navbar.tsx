@@ -13,10 +13,8 @@ const Navbar = () => {
     const updateWidth = () => {
       setWidth(window.innerWidth);
     };
-
     // Set initial width
     updateWidth();
-
     // Add event listener to update width on resize
     window.addEventListener("resize", updateWidth);
     // Cleanup function to remove event listener on component unmount
@@ -31,13 +29,13 @@ const Navbar = () => {
         </div>
       )}
       <div className="flex flex-wrap gap-12 text-center text-purple text-[16px]">
-        <Link href="/" className="m-auto">
+        <Link href="/" className="lg:m-auto mt-auto mb-auto">
           HOW DOES IT WORK
         </Link>
-        <Link href="/" className="m-auto">
+        <Link href="/" className="lg:m-auto mt-auto mb-auto">
           CITIES
         </Link>
-        <Link href="/" className="m-auto">
+        <Link href="/" className="lg:m-auto mt-auto mb-auto">
           CONTACT US
         </Link>
         <Button text="DOWNLOAD" />
